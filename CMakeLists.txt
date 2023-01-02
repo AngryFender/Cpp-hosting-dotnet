@@ -4,3 +4,5 @@ project(cpp_hosting_dotnet)
 set(CMAKE_CXX_STANDARD 23)
 
 add_executable(cpp_hosting_dotnet main.cpp)
+target_link_libraries(${PROJECT_NAME} ${CMAKE_DL_LIBS})
+
